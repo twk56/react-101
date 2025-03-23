@@ -57,7 +57,7 @@ const Register = () => {
               size="large"
               sx={{
                 "&:hover": {
-                  backgroundColor: "lightgreen", // เปลี่ยนเป็นสีเขียวอ่อนที่คุณต้องการ
+                  backgroundColor: "lightgreen",
                 },
               }}
             >
