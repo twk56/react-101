@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import logo from "../assets/img/user.png";
 import axios from "axios";
 
-// CSS Keyframes for Wobble Effect
 const wobbleKeyframes = `
   @keyframes wobble {
     0% { transform: scale(1); }
@@ -56,7 +55,6 @@ const Login = () => {
             event.preventDefault();
             console.log("Hello from");
             console.log(email, password);
-            // Add navigation to profile or authentication logic here
            try {
             const res = await axios.post("http://localhost:3000/login", {
               username: email,
